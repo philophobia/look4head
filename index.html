@@ -1,0 +1,45 @@
+<!--
+ * @Description: 主网页
+ * @Version: 1.0
+ * @Autor: ln
+-->
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <title>Look4Head</title>
+        <link rel="stylesheet" type="text/css" href="index.css" />
+        <link rel="stylesheet" type="text/css" href="layui/css/layui.css">
+    </head>
+
+    <body>
+        <div class="game">
+            <div class="container">
+                <button onclick="init(12,18,3)" class="layui-btn layui-btn-danger">GAME</button>
+                <div id="step">
+                    步数：&ensp;0
+                </div>
+                <div id="record">
+                    最快完成：&ensp;--
+                </div>
+                <div id="hint">
+                    <p>本次出现：</p>
+                    <img id="arrange-1" src="">
+                    <img id="arrange-2" src="">
+                    <img id="arrange-3" src="">
+                </div>
+            </div>
+            <table id="main">
+                <!-- 留空 -->
+            </table>
+        </div>
+
+        <script src="index.js"></script>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="layui/layui.all.js"></script>
+    </body>
+
+</html>

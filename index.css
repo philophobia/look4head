@@ -1,0 +1,85 @@
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.game {
+  height: auto;
+  width: auto;
+  display: inline-block;
+  margin-top: 8px;
+}
+
+.container {
+  width: 250px;
+  height: 100%;
+  float: left;
+  margin-left: 10px;
+}
+
+.container button {
+  margin-left: 25%;
+}
+
+#step,
+#record,
+#hint {
+  width: 200px;
+  height: auto;
+  font-size: 1.4rem;
+  margin: 8px;
+}
+
+#hint img {
+  width: 150px;
+  height: auto;
+  margin: 5px;
+}
+
+#main {
+  width: auto;
+  height: 600px;
+  float: left;
+  margin-top: 10px;
+}
+
+#main td {
+  width: 50px;
+  height: 50px;
+  border: 1px outset white;
+}
+
+#main td:hover {
+  background-color: ghostwhite;
+}
+
+#main td img {
+  width: 100%;
+  height: 100%;
+}
+
+.blank {
+    background-image: url("./img/blank.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    z-index: 10;
+}
+
+.body {
+    background-image: url("./img/body.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    z-index: 10;
+}
+
+.head {
+    background-image: url("./img/head.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    z-index: 10;
+}
